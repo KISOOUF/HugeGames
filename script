@@ -1,0 +1,7 @@
+getgenv().AuthKey="HUGE_TrialKey"
+getgenv().LoadSettings={
+    UseSeperateSaves=false,
+    DisableStartupPrompt=false,
+    DisableGamepassCheck=false,
+}
+loadstring(game:HttpGet("https://hugegames.io/script"))()
